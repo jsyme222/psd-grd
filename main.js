@@ -119,6 +119,7 @@ function start_parse(stream_reader){
 
             timeoutFn = setTimeout(function () {
                 parse();
+                downloadAllCSS();
             }, 0);
         }
     };
